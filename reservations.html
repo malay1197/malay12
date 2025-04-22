@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations - GwalBhog Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">🏠 Home</a></li>
+                <li><a href="about.html">📖 About</a></li>
+                <li><a href="menu.html">🍽️ Menu</a></li>
+                <li><a href="reservations.html">📅 Reservations</a></li>
+                <li><a href="contact.html">📞 Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="reservations">
+        <h1>Reserve Your Table</h1>
+        <p>Book your table in just a few clicks!</p>
+
+        <form action="#">
+            <input type="text" id="name" name="name" placeholder="Full Name" required>
+
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+
+            <input type="email" id="email" name="email" placeholder="Email Address" required>
+
+            <input type="date" id="date" name="date" required>
+            
+            <input type="time" id="time" name="time" required>
+
+            <input type="number" id="guests" name="guests" min="1" max="20" placeholder="Number of Guests" required>
+
+            <textarea id="requests" name="requests" rows="2" placeholder="Special Requests (Optional)"></textarea>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 GwalBhog Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
